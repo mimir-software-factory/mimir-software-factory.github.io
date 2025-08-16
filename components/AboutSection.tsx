@@ -89,8 +89,8 @@ export function AboutSection() {
   // Counter animation for stats
   const animateCounter = (finalValue: string, index: number) => {
     const numericValue = parseInt(finalValue.replace(/[^\d]/g, '')) || 0
-    const isPercentage = finalValue.includes('%')
-    const hasPlus = finalValue.includes('+')
+    // const isPercentage = finalValue.includes('%')
+    // const hasPlus = finalValue.includes('+')
     
     let current = 0
     const increment = Math.ceil(numericValue / 60)
@@ -171,7 +171,7 @@ export function AboutSection() {
           <div className="fade-in">
             <h3 className="text-3xl font-bold mb-6">Our Approach</h3>
             <p className="text-gray-600 mb-6 text-lg">
-              Named after the Norse god of wisdom and knowledge, Mímir Software Factory brings deep expertise and innovative thinking to every project. We don't just build solutions – we craft intelligent systems that evolve with your business.
+              Named after the Norse god of wisdom and knowledge, Mímir Software Factory brings deep expertise and innovative thinking to every project. We don&apos;t just build solutions – we craft intelligent systems that evolve with your business.
             </p>
             <div className="space-y-6">
               {approaches.map((approach, index) => (

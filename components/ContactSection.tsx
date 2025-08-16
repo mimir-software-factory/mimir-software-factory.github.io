@@ -54,7 +54,7 @@ export function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 fade-in">
           <h2 className="text-4xl font-bold mb-4">Ready to Transform Your Business?</h2>
-          <p className="text-xl text-gray-300">Let's discuss how we can help you unlock the power of your data</p>
+          <p className="text-xl text-gray-300">Let&apos;s discuss how we can help you unlock the power of your data</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">

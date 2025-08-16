@@ -125,7 +125,7 @@ export function HeroSection() {
     }, 2000)
 
     return () => clearInterval(interval)
-  }, [])
+  }, [models.length])
 
   // Floating technologies animation
   useEffect(() => {
@@ -206,7 +206,7 @@ export function HeroSection() {
             </h1>
             
             <p className="text-xl mb-8 text-gray-100 leading-relaxed">
-              Mímir Software Factory specializes in cutting-edge data science and machine learning solutions that drive measurable business impact. From AI strategy to implementation, we're your trusted partners in digital transformation.
+              Mímir Software Factory specializes in cutting-edge data science and machine learning solutions that drive measurable business impact. From AI strategy to implementation, we&apos;re your trusted partners in digital transformation.
             </p>
             
             {/* Interactive Stats */}
