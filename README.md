@@ -4,6 +4,29 @@ This is a [website](https://mimir-software-factory.github.io/) of the Mímir Sof
 
 ## Getting Started
 
+Project structure:
+
+```
+├── app/
+│   ├── globals.css          # Global styles and custom CSS
+│   ├── layout.tsx           # Root layout with metadata
+│   └── page.tsx             # Home page component
+├── components/
+│   ├── Navigation.tsx       # Main navigation component
+│   ├── HeroSection.tsx      # Hero/landing section
+│   ├── ServicesSection.tsx  # Services showcase
+│   ├── SolutionsSection.tsx # Industry solutions
+│   ├── AboutSection.tsx     # About us and approach
+│   ├── ContactSection.tsx   # Contact form and info
+│   └── Footer.tsx           # Footer component
+├── .github/workflows/
+│   └── nextjs.yml           # GitHub Actions workflow
+├── next.config.js           # Next.js configuration
+├── tailwind.config.ts       # Tailwind CSS configuration
+├── postcss.config.js        # PostCSS configuration
+└── package.json             # Dependencies and scripts
+```
+
 First, run the development server:
 
 ```bash
@@ -19,8 +42,6 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font).
 
 ## Developer's Guide
 
