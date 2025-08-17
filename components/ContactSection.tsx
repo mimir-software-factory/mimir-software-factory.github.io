@@ -186,7 +186,7 @@ export function ContactSection() {
               message: ''
             })
           }, 5000)
-        } catch (formError) {
+        } catch {
           setSubmitError('Unable to send message. Please email us directly at mimirsoftwarefactory@gmail.com')
         } finally {
           document.body.removeChild(form)
@@ -288,6 +288,18 @@ export function ContactSection() {
 
           {/* Contact Form */}
           <div className="fade-in">
+            <div className="mb-4">
+              <p className="text-sm text-gray-400">
+                Having trouble with the form? <button 
+                  type="button" 
+                  onClick={() => window.open('mailto:mimirsoftwarefactory@gmail.com?subject=Project Inquiry&body=Hi, I would like to discuss a project...')}
+                  className="text-indigo-400 hover:text-indigo-300 underline"
+                >
+                  Email us directly
+                </button>
+              </p>
+            </div>
+            
             <form onSubmit={handleSubmit} className="space-y-6">
               {submitError && (
                 <div className="bg-red-500/10 border border-red-500/50 rounded-lg p-4 flex items-center space-x-3">
