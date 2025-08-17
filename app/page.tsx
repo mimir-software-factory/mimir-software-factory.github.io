@@ -4,7 +4,7 @@ import { HeroSection } from '@/components/HeroSection'
 import { ServicesSection } from '@/components/ServicesSection'
 import { SolutionsSection } from '@/components/SolutionsSection'
 import { AboutSection } from '@/components/AboutSection'
-// import { ContactSection } from '@/components/ContactSection'
+import { ContactSection } from '@/components/ContactSection'
 import { useEffect } from 'react'
 
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
       <ServicesSection />
       <SolutionsSection />
       <AboutSection />
-      {/* <ContactSection /> */}
+      <ContactSection />
     </>
   )
 }
