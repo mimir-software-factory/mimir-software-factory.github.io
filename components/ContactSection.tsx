@@ -223,7 +223,7 @@ export function ContactSection() {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Let's discuss how we can help you unlock the power of your data and accelerate your growth with AI-driven solutions
+            Let&apos;s discuss how we can help you unlock the power of your data and accelerate your growth with AI-driven solutions
           </p>
         </div>
 
@@ -261,7 +261,7 @@ export function ContactSection() {
                   <i className="fas fa-globe text-white text-lg"></i>
                 </div>
                 <div>
-                  <p className="text-gray-400 text-sm">We're located</p>
+                  <p className="text-gray-400 text-sm">We&apos;re located</p>
                   <span className="text-white font-medium">Global Remote Team</span>
                 </div>
               </div>
