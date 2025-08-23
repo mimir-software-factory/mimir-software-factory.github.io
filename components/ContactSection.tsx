@@ -247,16 +247,6 @@ export function ContactSection() {
               </div>
               
               <div className="flex items-center space-x-4 p-4 bg-gray-800/50 rounded-lg hover:bg-gray-800/70 transition-colors group">
-                <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <i className="fas fa-phone text-white text-lg"></i>
-                </div>
-                <div>
-                  <p className="text-gray-400 text-sm">Call us at</p>
-                  <span className="text-white font-medium">(+61) 0433-514-560</span>
-                </div>
-              </div>
-              
-              <div className="flex items-center space-x-4 p-4 bg-gray-800/50 rounded-lg hover:bg-gray-800/70 transition-colors group">
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                   <i className="fas fa-globe text-white text-lg"></i>
                 </div>
